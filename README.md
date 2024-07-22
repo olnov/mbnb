@@ -1,26 +1,22 @@
-# MakersBnB Python Project Seed
+# MakersBnB Python Project
 
 This repo contains the seed codebase for the MakersBnB project in Python (using 
 Flask and Pytest).
-
-Someone in your team should fork this seed repo to their GitHub account.
-Everyone in the team should then clone this fork to their local machine to work on it.
 
 ## Setup
 
 ```shell
 # Set up the virtual environment
-; python -m venv makersbnb-venv
+; python -m venv venv
 
 # Activate the virtual environment
-; source makersbnb-venv/bin/activate 
+; source venv/bin/activate 
 
 # Install dependencies
 (makersbnb-venv); pip install -r requirements.txt
 
 # Install the virtual browser we will use for testing
 (makersbnb-venv); playwright install
-# If you have problems with the above, contact your coach
 
 # Create a test and development database
 (makersbnb-venv); createdb YOUR_PROJECT_NAME
